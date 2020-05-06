@@ -1,0 +1,251 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root
+{
+    font-size: 1vw;
+    font-family: monospace;
+
+    --color-one: #000000;
+    --color-two: #323232;
+    --color-three: #3c4f65;
+}
+
+.interface
+{
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+    background-color: var(--color-one);
+
+    padding: 2%;
+
+    overflow: hidden;
+}
+
+.btn-login
+{
+    position: absolute;
+
+    clip-path: circle(28% at 50% 50%);
+
+    font-size: .7rem;
+
+    width: 10%;
+    height: 10%;
+
+    top: 5%;
+    left: 0;
+
+    transition: .5s;
+
+    font-family: monospace;
+}
+
+.btn-login
+{
+    display: show;
+}
+
+.btn-login:hover
+{
+    cursor: pointer;
+
+    background-color: #3c4f65;
+    color: white;
+}
+
+
+.player 
+{
+    grid-column: 1/2;
+    
+    background-color: var(--color-two);
+}
+
+.listagem
+{
+    grid-column: 2/3;
+
+    color: white;
+
+    background-color: #323232;
+}
+/* player */
+
+
+.player 
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--color-two);
+
+    justify-content: center;
+
+    padding: 5%;
+}
+
+video
+{
+    width: 100%;
+    display: none ;
+}
+
+audio
+{
+    margin-top: 3%;
+    display: none;
+}
+
+.pesquisa
+{
+    margin-top: 3%;
+    color: white;
+}
+
+.searchbar
+{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 2%;
+    width: 50%;
+
+    border: 25px;
+}
+
+.submit
+{
+    color: white;
+    background-color: transparent;
+    border: 0px;
+
+    transition: 1s;
+}
+
+.submit:hover
+{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/* listagem */
+
+.titulo
+{
+    border-radius: 0px 0px 0px 50px;
+
+    background-color: var(--color-three);
+}
+
+.listagem
+{
+    overflow-y: scroll;
+}
+
+
+
+.listagem h1 
+{
+    text-align: center;
+    font-size: 2.4rem;
+
+    padding-top: 5%;
+}
+
+.listagem p
+{
+    text-align: center;
+    font-size: 1.5rem;
+
+    padding-bottom: 5%;
+}
+
+.escolhas
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    background-color: var(--color-two);
+
+    padding: 3%;
+
+    padding-bottom: 5%;
+}
+
+.dois 
+{
+    background-color: var(--color-three);
+}
+
+.slc
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    padding-right: 8%;
+    padding-left: 8%;
+
+    text-align: center;
+
+    border-radius: 50px;
+}
+
+.slc:hover
+{
+    cursor: pointer;
+}
+
+
+
+.tbl 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--color-three);
+
+    border-radius: 50px 0px 0px 0px;
+}
+
+.tbl p
+{
+    padding-top: 5%;
+    font-size: 1rem;
+}
+
+table
+{
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+
+.linha
+{
+    color: black;
+    padding: 2%;
+    background-color: white;
+}
+
+.tr-titulo
+{
+    background-color: #323232;
+    color: white;
+}
+
+td
+{
+    padding: 3%;
+}

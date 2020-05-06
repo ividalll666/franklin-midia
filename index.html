@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title> Player de Mídia </title>
+</head>
+<body class="interface">
+
+
+    <button onclick="window.location.href='login.html'" class="btn-login">
+        Login
+    </button>
+
+    <main class="player"> 
+        
+
+        <video src="video/teste.mp4" controls>
+            
+        </video>
+
+        <audio src="audio/Kalimba.mp3" controls> </audio>
+
+        <div class="pesquisa">
+            <h1> Pesquise o que deseja:</h1>
+            
+            <input class="searchbar" type="text" name="" id=""> 
+
+            <button class="fas fa-search submit"> </button>
+
+        </div>
+    
+    </main>
+
+    
+    <main class="listagem"> 
+        
+        <div class="titulo">
+            <h1>listagem de Conteúdo</h1>
+            <p> Seu conteúdo tabelado:</p>
+        </div>
+
+        <div class="escolhas">
+            <p>Escolha o player:</p>
+
+            <select class="slc">
+                <option value="default"> Escolha aqui!</option>
+                <option value="Musicas"> Músicas</option>
+                <option value="Videos"> Vídeos</option>
+            </select>
+
+        </div>
+
+        <div class="tbl">
+
+            <p> Abaixo estará sua tudo o que há salvo. <br> Escolha playlists no botão abaixo se preferir.</p>
+
+
+            <div class="escolhas dois">
+
+                <select class="slc">
+                    <option value="default"> Tudo junto</option>
+                    <option value="Musicas"> Playlist-1</option>
+                    <option value="Videos"> Playlist-2</option>
+                </select>
+    
+            </div>
+
+            <table>
+                <tr class="linha tr-titulo"> <td> Nome-conteúdo </td> <td> data de publicação</td></tr>
+                
+                <tr class="linha"> <td> exemplo </td> <td> exemplo </td></tr>
+
+            </table>
+        </div>
+
+
+    </main>
+</body>
+</html>
